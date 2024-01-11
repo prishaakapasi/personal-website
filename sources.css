@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+li{
+	display:inline-block;
+	margin-left: 7%;
+	margin-right:1%;
+	float: center;
+	font-family:"Arial Black", "Impact", "Haettenschweiler", "Franklin Gothic Bold", "sans-serif";
+	font: "Arial Black";
+	
+}
+header{
+	width:100%;
+}
+a{
+	padding-right:8px;
+	padding-left:8px;
+	text-decoration:none;
+	text-align:center;
+	font-size: 14px;
+	
+}
+a:link{
+	color: rgba(239,255,238,1.00);;
+}
+a:hover {
+  color: darkgreen;
+}
+a:visited{
+	color: rgba(239,255,238,1.00);;
+}
+a:hover {
+  color: darkgreen;
+}
+body{
+	background-image: url("backgroundpages.png");
+	background-size: cover;
+}
+h1{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	margin-left: 7%;
+	color: white;
+}
+h3{
+	margin-left: 3%; 
+	color:rgba(214,234,196,1.00);
+	background: rgba(12,36,11,0.56);
+	padding: 10px;
+	border-radius: 7px; 
+}

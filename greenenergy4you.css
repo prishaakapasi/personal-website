@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+li{
+	display:inline-block;
+	margin-left: 7%;
+	margin-right:1%;
+	float: center;
+	font-family:"Arial Black", "Impact", "Haettenschweiler", "Franklin Gothic Bold", "sans-serif";
+	font: "Arial Black";
+	
+}
+header{
+	width:100%;
+}
+a{
+	padding-right:8px;
+	padding-left:8px;
+	text-decoration:none;
+	text-align:center;
+	font-size: 14px;
+	
+}
+a:link{
+	color: rgba(239,255,238,1.00);;
+}
+a:hover {
+  color: darkgreen;
+}
+a:visited{
+	color: rgba(239,255,238,1.00);;
+}
+a:hover {
+  color: darkgreen;
+}
+body{
+	background-image: url("backgroundpages.png");
+	background-size: cover;
+}
+.flip-card-apartment {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px; 
+}
+
+.flip-card-inner-apartment {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card-apartment:hover .flip-card-inner-apartment {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-apartment, .flip-card-back-apartment {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front-apartment {
+  background-color: transparent;
+  color: black;
+}
+.caption{
+	color:rgba(63,105,55,1.00);
+}
+
+.flip-card-back-apartment {
+
+  transform: rotateY(180deg);
+  border-radius: 12px;
+}
+
+/* house flip card */
+.flip-card-house {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px; 
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner-house {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card-house:hover .flip-card-inner-house {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-house, .flip-card-back-house {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front-house {
+  background-color: transparent;
+  color: black;
+}
+
+.flip-card-back-house {
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 12px;
+  background: rgba(112,142,98,1.00);
+}
+#house{
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+/* end house */
+/* townhome flipcard */
+.flip-card-townhome {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px; 
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner-townhome {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card-townhome:hover .flip-card-inner-townhome {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-townhome, .flip-card-back-townhome {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front-townhome {
+  background-color: transparent;
+  color: black;
+}
+
+.flip-card-back-townhome {
+  color: white;
+  transform: rotateY(180deg);
+  background: rgba(112,142,98,1.00);
+  border-radius: 12px;
+}
+#townhome{
+	margin-right: 15%;
+	margin-left: 0px;
+	margin-top: 20px;
+}
+/* end townhome */
+#apartment{
+	margin-right:0px;
+	margin-left: 15%;
+	margin-top: 20px;
+}
+h1{
+	font-size: 24px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: white; 
+	padding: 10px;
+	text-align: center;
+}
+h2{
+	font-size:18px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: white;
+	margin-left: 14px;
+	text-align: center;
+}
+p{
+	font-size:10px;
+	font-family: Arial Black;
+	color: white;
+	padding: 14px;
+	background: rgba(70,115,62,1.00);
+}
+.flipcards{
+	display: flex;
+	margin-left:10%;
+	margin-right:10%;
+}
+.caption{
+	color:white;
+	padding: 4px;
+}
+.yes{
+	margin-top: 5%;
+	font-size:32px;
+}
+
